@@ -1,7 +1,10 @@
 package com.zz.led.mvp.ui.activity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
@@ -70,4 +73,12 @@ public class LogoActivity extends BaseActivity<LogoPresenter> implements LogoCon
     public void killMyself() {
         finish();
     }
+
+    @SuppressLint("HandlerLeak")
+    Handler handler=new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+        }
+    };
 }
