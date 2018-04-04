@@ -28,7 +28,7 @@ import com.jess.arms.integration.ConfigModule;
 import com.jess.arms.utils.ArmsUtils;
 import com.squareup.leakcanary.RefWatcher;
 import com.zz.led.BuildConfig;
-import com.zz.led.mvp.model.Api;
+import com.zz.led.mvp.model.Api.Api;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

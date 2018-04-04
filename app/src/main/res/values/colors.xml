@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="transparent">#00ffffff</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#696969</color>
+    <color name="black">#000000</color>
+    <color name="line_gray">#999999</color>
+    <color name="text_gray">#333333</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#63b8ff</color>
+    <color name="dark_blue">#3f51b5</color>
+    <color name="hint_gray">#999999</color>
+    <color name="red">#FC5558</color>
+    <color name="pressred">#CD3700</color>
+    <color name="yellow">#eec211</color>
+    <color name="trans_gray">#aa999999</color>
+    <color name="trans_light_gray">#f0dddddd</color>
+    <color name="trans_situation_gray">#99dddddd</color>
+    <color name="deeptrans_gray">#efeeeeee</color>
+    <color name="light_gray">#eeeeee</color>
+    <color name="green_light">#00ff00</color>
+    <color name="green_dark">#4CC9A9</color>
+    <color name="fragment_situation_tab_gray">#595959</color>
+    <color name="alpha_white">#7fffffff</color>
+    <color name="alpha_white1">#6fffffff</color>
+    <color name="myroom_1">#3366CC</color>
+    <color name="myroom_2">#4D33CC</color>
+    <color name="myroom_3">#9933CC</color>
+    <color name="myroom_4">#CC33B3</color>
+    <color name="myroom_5">#CC3366</color>
+    <color name="myroom_6">#CC9933</color>
+    <color name="myroom_7">#B3CC33</color>
+    <color name="myroom_8">#33B3CC</color>
+
+    <color name="myroom_1_close">#663366CC</color>
+    <color name="myroom_2_close">#664D33CC</color>
+    <color name="myroom_3_close">#669933CC</color>
+    <color name="myroom_4_close">#66CC33B3</color>
+    <color name="myroom_5_close">#66CC3366</color>
+    <color name="myroom_6_close">#66CC9933</color>
+    <color name="myroom_7_close">#66B3CC33</color>
+    <color name="myroom_8_close">#6633B3CC</color>
+    <color name="theme_gray">#cacaca</color>
+    <color name="stroke">#cac7c7</color>
+    <color name="blue_text">#0c91f7</color>
+    <color name="gray_text">#909497</color>
+    <color name="lable_blue">#3DB0FD</color>
+    <color name="tpf_gray_txt">#cdd2d3</color>
+    <color name="alpha">#00ffffff</color>
 </resources>
