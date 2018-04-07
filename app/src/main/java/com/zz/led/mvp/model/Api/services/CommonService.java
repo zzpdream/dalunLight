@@ -16,5 +16,5 @@ public interface CommonService {
 
     @POST("api/dalen")
     @FormUrlEncoded
-    Observable<ResponseBody> getServerIp(@FieldMap(encoded = true) Map<String, String> params);
+    Observable<String> getServerIp(@FieldMap(encoded = true) Map<String, String> params);
 }

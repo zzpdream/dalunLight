@@ -7,6 +7,9 @@ import com.jess.arms.di.scope.ActivityScope;
 import com.jess.arms.integration.IRepositoryManager;
 import com.jess.arms.mvp.BaseModel;
 import com.zz.led.mvp.contract.LogoContract;
+import com.zz.led.mvp.model.Api.services.CommonService;
+
+import java.util.Map;
 
 import javax.inject.Inject;
 
@@ -34,7 +37,7 @@ public class LogoModel extends BaseModel implements LogoContract.Model {
     }
 
     @Override
-    public Observable<ResponseBody> getServerIps() {
-        return null;
+    public Observable<String> getServerIps(Map<String,String> params) {
+        return mRepositoryManager.obtainRetrofitService(CommonService.class).getServerIp(params);
     }
 }

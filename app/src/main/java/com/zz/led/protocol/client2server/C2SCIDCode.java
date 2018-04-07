@@ -1,0 +1,123 @@
+package com.zz.led.protocol.client2server;
+
+/**
+ * Created by Administrator on 2017/10/31.
+ * 对应command id  (cid,message id)
+ */
+
+public class C2SCIDCode {
+    public static final String M1 = "0001";//固件升级确认
+    public static final String M2 = "0002";//固件升级请求
+    public static final String M4 = "0004";//ICG固件升级完成消息
+    public static final String M3 = "0003";//ICG固件升级完成确认
+    public static final String M6 = "0006";//ICG开关状态消息报告
+    public static final String M5 = "0005";//ICG开关状态消息确认
+    public static final String M8 = "0008";//灯光状态报告
+    public static final String M7 = "0007";//灯光状态确认
+    public static final String M10 = "0010";//ICG灯光模式报告
+    public static final String M9 = "0009";//ICG灯光模式报告确认
+    public static final String M12 = "0012";//RGB状态报告
+    public static final String M11 = "0011";//RGB状态报告确认
+    public static final String M14 = "0014";//红外学习完成报告
+    public static final String M13 = "0013";//红外学习完成报告确认
+    public static final String M16 = "0016";//ICG掉线报告
+    public static final String M15 = "0015";//ICG掉线报告确认
+    public static final String M18 = "0018";//情景模式灯光状态报告
+    public static final String M17 = "0017";//情景模式灯光状态报告确认
+    public static final String M20 = "0020";//情景模式ICG开关状态报告
+    public static final String M19 = "0019";//情景模式ICG开关状态报告确认
+    public static final String M22 = "0022";//情景模式红外节点控制报告
+    public static final String M21 = "0021";//情景模式红外节点控制报告确认
+    public static final String M24 = "0024";//ICG灯光状态报告
+    public static final String M23 = "0023";//ICG灯光状态确认
+    public static final String M5001 = "5001";//固件回滚命令
+    public static final String M5002 = "5002";//固件回滚命令确认
+    public static final String M5003 = "5003";//心跳包消息发送
+    public static final String M5004 = "5004";//心跳包消息确认
+    public static final String M5005 = "5005";//灯光状态查询命令
+    public static final String M5006 = "5006";//灯光状态查询命令确认
+    public static final String M5007 = "5007";//灯光开关命令消息
+    public static final String M5008 = "5008";//灯光开关命令消息确认
+    public static final String M5009 = "5009";//灯光调节命令
+    public static final String M5010 = "5010";//灯光调节命令确认
+    public static final String M5013 = "5013";//模式控制命令
+    public static final String M5014 = "5014";//模式控制命令确认
+    public static final String M5017 = "5017";//状态调节结束命令
+    public static final String M5018 = "5018";//状态调节结束命令确认
+    public static final String M5019 = "5019";//同步红外品牌命令
+    public static final String M5020 = "5020";//同步红外品牌命令
+    public static final String M5021 = "5021";//检索红外遥控器命令
+    public static final String M5022 = "5022";//检索红外遥控器命令确认
+    public static final String M5023 = "5023";//5.10.1创建标准红外遥控器命令
+    public static final String M5024 = "5024";//5.10.2创建标准红外遥控器命令确认
+    public static final String M5025 = "5025";//5.11.1创建自定义红外遥控器命令(废除)
+    public static final String M5026 = "5026";//创建自定义红外遥控器命令确认(废除)
+    public static final String M5027 = "5027";//5.12.1进入红外学习命令
+    public static final String M5028 = "5028";//5.12.2进入红外学习命令确认
+    public static final String M5029 = "5029";//5.13.1红外学习命令
+    public static final String M5030 = "5030";//5.13.2红外学习命令确认
+    public static final String M5031 = "5031";//取消红外学习命令
+    public static final String M5032 = "5032";//5.14.2取消红外学习命令确认
+    public static final String M5033 = "5033";//5.15.1红外节点控制命令
+    public static final String M5034 = "5034";//5.15.2红外节点控制命令确认
+    public static final String M5035 = "5035";//获取验证信息命令
+    public static final String M5036 = "5036";//获取验证信息命令确认
+    public static final String M5037 = "5037";//用户注册命令
+    public static final String M5038 = "5038";//用户注册命令确认
+    public static final String M5039 = "5039";//6.3.1用户登录命令
+    public static final String M5040 = "5040";//6.3.2用户登录命令确认
+    public static final String M5041 = "5041";//恢复登录命令
+    public static final String M5042 = "5042";//恢复登录命令确认
+    public static final String M5043 = "5043";//6.5.1用户退出命令
+    public static final String M5044 = "5044";//6.5.2用户退出命令确认
+    public static final String M5045 = "5045";//6.6.1检索ICG命令
+    public static final String M5046 = "5046";//6.6.2检索ICG命令确认
+    public static final String M5047 = "5047";//6.7.1注册用户配置信息更新命令
+    public static final String M5048 = "5048";//注册用户配置信息更新命令确认
+    public static final String M5049 = "5049";//修改密码命令
+    public static final String M5050 = "5050";//修改密码命令确认
+    public static final String M5051 = "5051";//获取用户红外遥控器命令
+    public static final String M5052 = "5052";//6.9.2获取用户红外遥控器命令确认
+    public static final String M5053 = "5053";//查询自定义红外码命令
+    public static final String M5054 = "5054";//6.10.2查询自定义红外码命令确认
+    public static final String M5055 = "5055";//7.1.1获取ICG情景模式命令
+    public static final String M5056 = "5056";//7.1.2获取ICG情景模式命令确认
+    public static final String M5057 = "5057";//添加情景模式命令
+    public static final String M5058 = "5058";//7.2.2添加情景模式命令确认
+    public static final String M5059 = "5059";//7.3.1修改情景模式命令
+    public static final String M5060 = "5060";//修改情景模式命令确认
+    public static final String M5061 = "5061";//7.4.1删除情景模式命令
+    public static final String M5062 = "5062";//7.4.2删除情景模式命令确认
+    public static final String M5063 = "5063";//执行情景模式命令
+    public static final String M5064 = "5064";//执行情景模式命令确认
+    public static final String M5065 = "5065";//7.6.1获取定时器命令
+    public static final String M5066 = "5066";//7.6.2获取ICG定时器命令确认
+    public static final String M5067 = "5067";//新增定时器命令
+    public static final String M5068 = "5068";//新增定时器命令确认
+    public static final String M5069 = "5069";//7.8.1修改定时器命令
+    public static final String M5070 = "5070";//7.8.2修改定时器命令确认
+    public static final String M5071 = "5071";//7.9.1删除定时器命令
+    public static final String M5072 = "5072";//删除定时器命令确认
+    public static final String M5073 = "5073";//添加用户自定义遥控器命令
+    public static final String M5074 = "5074";//添加用户自定义遥控器命令确认
+    public static final String M5075 = "5075";//删除用户自定义遥控器命令
+    public static final String M5076 = "5076";//7.11.2删除用户自定义遥控器命令确认
+    public static final String M5077 = "5077";//获取在线灯具
+    public static final String M5078 = "5078";//
+    public static final String M5079 = "5079";//删除用户自定义遥控器命令
+    public static final String M5080 = "5080";//7.13.2删除用户自定义遥控器命令确认
+    public static final String M5081 = "5081";//7.15.1删除用户自定义遥控器命令
+    public static final String M5082 = "5082";//7.15.2删除用户自定义遥控器命令确认
+    public static final String M5083 = "5083";//获取联网提示音配置消息
+    public static final String M5084 = "5084";//9.1.2获取联网提示音配置消息确认
+    public static final String M5085 = "5085";//OTA日志
+    //    public static final String M5086 = "";
+    public static final String M5087 = "5087";//情景模式测试指令
+    public static final String M5088 = "5088";//情景模式测试反馈
+    public static final String M5089 = "5089";//9.2.1三瓣花灯光调节消息
+    public static final String M5090 = "5090";//三瓣花灯光调节消息确认
+    public static final String M5091 = "5091";//9.3.1三瓣花灯光状态查询消息
+    public static final String M5092 = "5092";//三瓣花灯光状态查询息确认
+
+
+}
