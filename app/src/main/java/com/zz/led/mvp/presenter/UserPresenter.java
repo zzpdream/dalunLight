@@ -7,14 +7,18 @@ import com.jess.arms.http.imageloader.ImageLoader;
 import com.jess.arms.integration.AppManager;
 import com.jess.arms.mvp.BasePresenter;
 import com.jess.arms.utils.RxLifecycleUtils;
+import com.zz.led.cmd.client2server.user.UserCmd;
 import com.zz.led.mvp.contract.LogoContract;
 import com.zz.led.mvp.model.entity.CountryBean;
+import com.zz.led.socket.NettyClient;
 import com.zz.led.utils.LanguageUtils;
 
 import java.util.HashMap;
 
 import javax.inject.Inject;
 
+import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelFutureListener;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.annotations.NonNull;
 import io.reactivex.schedulers.Schedulers;
@@ -65,6 +69,15 @@ public class UserPresenter extends BasePresenter<LogoContract.Model, LogoContrac
                         Timber.e(result);
                     }
                 });
+    }
+
+    public void login(String username,String password){
+        NettyClient.getInstance().sendMsgToServer(UserCmd.login(username, password), new ChannelFutureListener() {
+            @Override
+            public void operationComplete(ChannelFuture future) throws Exception {
+
+            }
+        });
     }
 
     @Override
